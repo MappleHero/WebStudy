@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--first-line-->
+    <style>
+        p:first-line{
+            color: crimson;
+        }
+        /*fisrt-letter*/
+        p:first-letter{
+            color: green;
+        }
+        /*before*/
+        li:before{
+            content: 'haha';
+            font-size: 10px;
+            color: darkgray;
+        }
+        li:after{
+            content: "对列表做一个解释";
+            font-size: 10px;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <p>这是在第一行的内容<br/>这是第二行内容</p>
+    <ul>
+        <li>列表1</li>
+        <li>列表2</li>
+        <li>列表1</li>
+        <li>列表1</li>
+        <li>列表1</li>
+    </ul>
+
+</body>
+</html>

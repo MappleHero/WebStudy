@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="message()">
+    <div class="div" onmouseout="onOut(this)" onmouseover="onOver(this)"></div>
+    <script>
+        function onOver(ooj) {
+            ooj.innerHTML = "Hello";
+        }
+        function onOut(ooj) {
+            ooj.innerHTML = "World"
+        }
+    </script>
+    <form>
+        <input type="text" onchange="alert('hello content')">
+        <input type="text" onselect="change(this)" onfocus="changeDemo2(this)">
+    </form>
+    <script>
+//        function changeDemo(bg) {
+//            alert("Hello change content");
+//        }
+        function change(bg) {
+            bg.style.background = "red";
+        }
+        function changeDemo2(bg) {
+            bg.style.background = "blue";
+        }
+        function message() {
+            alert("content load finished")
+        }
+    </script>
+</body>
+</html>

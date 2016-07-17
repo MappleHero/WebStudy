@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            position: absolute;
+            background-color: yellow;
+            top: 100px;
+            width: 500px;
+        }
+        @-webkit-keyframes mycolor {
+            0%{
+                background-color: red;
+                transform: rotate(0deg);
+            }
+            30%{
+                background-color: aqua;
+                transform: rotate(30deg);
+            }
+            60%{
+                background-color: lightblue;
+                transform: rotate(-30deg);
+            }
+            100%{
+                background-color: red;
+                transform: rotate(0deg);
+            }
+        }
+        div:hover{
+            -webkit-animation-name: mycolor;
+            -webkit-animation-duration: 5s;
+            -webkit-animation-timing-function: ease-in;
+        }
+    </style>
+</head>
+<body>
+<!-- linear  匀速变化
+ease-in 开始慢然后快
+ ease-out 开始快然后慢
+ ease 开始慢然后快,再慢
+  ease-in-out 开始慢,慢慢加快,再加快-->
+    <div>实例文字</div>
+</body>
+</html>

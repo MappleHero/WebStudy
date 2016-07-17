@@ -1,0 +1,18 @@
+#postion1{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: relative;
+    left:20px;
+    top: 20px;
+    z-index: 2;
+}
+#postion2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    left:10px;
+    top: 10px;
+    z-index: 1;
+}

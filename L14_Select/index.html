@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <style>
+        [title]{
+            color: aqua;
+        }
+        [href="http://www.baid.com"]{
+            font-size: 50px;
+        }
+        [title~="title"]{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <p title="tit">hello</p>
+    <p title="title">hello</p>
+    <p title="t">hello</p>
+    <p title=" hello title">hello</p>
+    <a href="http://www.baidu.com">百度</a>
+    <!--<p>this is my <strong>web <i>hello</i> hello </strong> page</p>-->
+    <p>this is my <strong> web <i>hello</i> hello</strong> page</p>
+<div>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+    <ol>
+        <li>item11</li>
+        <li>item22</li>
+        <li>item33</li>
+    </ol>
+</div>
+</body>
+</html>

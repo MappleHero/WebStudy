@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--<a id = "aid" href="http://www.baidu.com">Hello</a>-->
+    <!--<button onclick="demo()">按钮</button>-->
+    <!--<script>-->
+        <!--function demo() {-->
+<!--//            document.write("world");-->
+<!--//            document.getElementsByTagName("p");//相同元素第一个-->
+            <!--document.getElementById("aid").href = "http://www.jikexueyuan.com"-->
+        <!--}-->
+    <!--</script>-->
+
+    <button id="btn">按钮</button>
+    <script>
+//        document.getElementById("btn").addEventListener("click", function () {
+//            alert("hello");
+//        });
+        var x document.getElementById("btn");
+        x.addEventListener("click", hello); //句柄
+        x.addEventListener("click", world);
+        function hello() {
+            alert("Hello");
+        }
+        function world() {
+            alert("World");
+        }
+    </script>
+</body>
+</html>

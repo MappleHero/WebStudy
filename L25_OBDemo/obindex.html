@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--<button id="btn" onclick="goceshi()">按钮</button>-->
+    <!--<script>-->
+        <!--function goceshi() {-->
+            <!--history.back();-->
+        <!--}-->
+    <!--</script>-->
+    <!--<form>-->
+        <!--<input type="text" id="username">-->
+    <!--</form>-->
+    <button id="btn" onclick="getLoc()">按钮</button>
+    <p id="ptime"></p>
+    <script>
+//        function safe() {
+//            var name = document.getElementById("username");
+//            if(name == "hello") {
+//                history.go(-1);
+//            } else {
+//                alert("输入错误")
+//            }
+//        }
+        function getLoc() {
+//            document.getElementById("ptime").innerHTML = window.location.href;
+//            location.assign("http://www.baidu.com");
+            document.write("可用高度"+screen.availHeight+"可用宽带"+screen.availWidth);
+            document.write("高度"+screen.height+"宽带"+screen.width);
+        }
+        getLoc();
+    </script>
+</body>
+</html>

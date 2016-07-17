@@ -1,0 +1,23 @@
+.p1{
+    color: aqua;
+}
+.p2{
+    font-size: 30px;
+}
+.p1.p2{
+    font-style: italic;
+}
+
+/*p strong i{*/
+    /*color: red;*/
+/*}*/
+
+p>strong>i{
+    color: fuchsia;
+    font-size: 30px;
+}
+
+li+li{
+    font-size: 50px;
+    color: aquamarine;
+}
