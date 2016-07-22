@@ -12,17 +12,16 @@
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-    <a href="#pp" data-rel="popup" class="ui-btn">弹出窗口</a>
-    <div data-role="popup" id="pp">
-        <p>this is pop up widow</p>
-    </div>
-
-    <a href="#pop" data-rel="popup" data-position-to="window" data-transition="fade">
-        <img src="2.jpg" class="popphoto" style="width: 20%">
-    </a>
-    <div data-rel="popup" id="pop">
-        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
-        <img src="2.jpg" class="popphoto" style="max-height: 512px;">
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1>Hellp</h1>
+        </div>
+        <div data-role="content">
+            <a href="#" data-role="button">按钮</a>
+        </div>
+        <div data-role="footer">
+            <h1>Welcome</h1>
+        </div>
     </div>
 </body>
 </html>
